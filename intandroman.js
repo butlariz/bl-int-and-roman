@@ -46,7 +46,7 @@ function romanToInt(strRoman) {
     if (strRoman == "" || !strRoman) {
     throw Error("Function called with no value")
   } else if (typeof(strRoman) != "string") {
-    throw Error("Type a string with '' ")
+    throw Error('Type a string')
   } else {
     return searchNumber(strRoman)
   }
@@ -69,3 +69,6 @@ const searchNumber = (str) => {
     return numberDigit
   }
 }
+
+module.exports.intToRoman = intToRoman;
+module.exports.romanToInt = romanToInt;
