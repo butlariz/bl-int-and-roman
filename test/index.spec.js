@@ -1,5 +1,5 @@
 const chai = require('../node_modules/chai')
-const convertor = require('../intandroman')
+const convertor = require('../index')
 const intToRoman = convertor.intToRoman
 const romanToInt = convertor.romanToInt
 const expect = chai.expect
@@ -54,6 +54,11 @@ describe('romanToInt()', () => {
   it('Should return "Is not a valid roman number" to "BXL"', () =>{
     var badFn = function () { romanToInt("BXL") };
     expect(badFn).to.throw("Is not a valid roman number");
+  });
+
+  it('Should return "Only numbers between 1 and 3999" to 5664', () =>{
+    var badFn = function () { romanToInt(5664) };
+    expect(badFn).to.throw("Only numbers between 1 and 3999");
   });
 
   it('Should return "Type a string" to 5', () =>{

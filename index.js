@@ -23,6 +23,8 @@ function intToRoman(numbers) {
     throw Error("Function called with no value")
   } else if (typeof(numbers) != "number") {
     throw Error("Type only numbers")
+  } else if (numbers < 1 || numbers > 3999) {
+    throw Error("Only numbers between 1 and 3999")
   } else {
     return searchRoman(numbers)
   }
