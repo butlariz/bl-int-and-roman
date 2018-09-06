@@ -40,12 +40,12 @@ $node
 
 ## roadmap oficial do projeto  
 
-### versão 3.0.0 (sem previsão)
+### versão 1.2.0 (sem previsão)
 - Aceitar números maiores que 3999
 
-### versão 2.0.0 (previsão setembro/2018)
+### versão 1.1.0 (released)
 - Tratamento de letras minúsculas, para funcionar como números romanos 
 
-### versão 1.0.0 (realesed)
+### versão 1.0.0 (released)
 - Funcionalidades: converte  números inteiros em romanos, e romanos em inteiros, entre 1 e 3999
 - Conversão com texto em letra maiúscula e números inteiros. 
