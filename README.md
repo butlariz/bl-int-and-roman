@@ -6,7 +6,7 @@ Essa biblioteca se destina a converter Números Romanos em Números Inteiros, e 
 
 Para converter Inteiros em Romanos
 
-*intToRoman(num)*
+**intToRoman(num)**
 
 Exemplo de uso:
 
@@ -18,7 +18,7 @@ $node
 
 Para converter Romanos em Inteiros 
 
-*romanToInt('string')*
+**romanToInt('string')**
 
 Exemplo de uso:
 
