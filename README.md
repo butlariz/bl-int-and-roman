@@ -1,4 +1,4 @@
-# Conversor de Números Romanos v.1.0.2
+# Conversor de Números Romanos v.1.1.2
 
 Essa biblioteca se destina a converter Números Romanos em Números Inteiros, e Números Inteiros em Números Romanos, para uso em aplicações na Web. A versão atual é capaz de converter números entre 1 e 3999.
 
@@ -43,7 +43,7 @@ $node
 ### versão 1.2.0 (sem previsão)
 - Aceitar números maiores que 3999
 
-### versão 1.1.0 (released)
+### versão 1.1.2 (released)
 - Tratamento de letras minúsculas, para funcionar como números romanos 
 
 ### versão 1.0.0 (released)
